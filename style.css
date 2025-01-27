@@ -20,7 +20,13 @@
   --color-white: #fff;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available; /* viewport ios */
   background: var(--color-neutral);
   color: var(--color-text);
   font-family: "Inter", sans-serif;
